@@ -1,0 +1,81 @@
+**Nombre del Proyecto:**
+Biblioteca Virtual
+
+**Descripción del Proyecto:**
+Desarrollo de una biblioteca virtual accesible en línea que permita a los usuarios acceder a una amplia colección de libros electrónicos. El sistema incluirá funcionalidades para la gestión de libros, búsqueda y navegación de catálogo, alquiler temporal de libros, y funcionalidades de lectura en línea.
+
+### Funcionalidades y Características del Software
+
+1. **Gestión de Libros (CRUD):**
+   	- **Crear:** Permitir al personal de la biblioteca agregar nuevos libros electrónicos al sistema.
+   	- **Leer:** Permitir a los usuarios y al personal de la biblioteca visualizar detalles de los libros.
+   	- **Actualizar:** Permitir al personal de la biblioteca editar la información de los libros existentes.
+  	 - **Eliminar:** Permitir al personal de la biblioteca eliminar libros del sistema.
+
+2. **Stock de Libros:**
+   	- Gestión del inventario de libros electrónicos disponibles para préstamo.
+   	- Control de disponibilidad de los libros.
+
+3. **Catálogo de Libros:**
+   	- Interfaz de usuario para buscar y navegar por el catálogo de libros.
+   	- Filtros y categorías para facilitar la búsqueda (género, autor, fecha de publicación, etc.).
+   	- Detalles de cada libro incluyendo sinopsis, autor, género, y disponibilidad.
+
+4. **Carrito de Libros:**
+   	- Funcionalidad que permite a los usuarios agregar libros a un carrito para su posterior alquiler o lectura.
+   	- Proceso de alquiler sencillo y claro.
+
+5. **Lectura en Línea:**
+   	- Integración de un lector de libros electrónicos que permita la lectura en línea sin necesidad de descargas.
+   	- Funciones como marcar páginas, destacar texto, y hacer notas.
+
+6. **Modelos de Disponibilidad de Libros:**
+  	 - Libros gratuitos disponibles indefinidamente.
+   	- Libros gratuitos disponibles por tiempo limitado (2-3 días).
+   	- Alquiler de libros electrónicos por períodos específicos.
+   	- Compra de artículos.
+
+### Límites del Proyecto
+
+**Incluye:**
+	- Desarrollo de una plataforma web accesible desde dispositivos con conexión a internet.
+	- Sistema de gestión de libros electrónicos con funcionalidades CRUD.
+	- Catálogo de libros con funcionalidades de búsqueda y filtros.
+	- Sistema de alquiler de libros electrónicos.
+	- Integración de un lector de libros en línea.
+
+**No Incluye:**
+	- Desarrollo de aplicaciones móviles nativas (iOS y Android).
+	- Gestión de libros físicos.
+	- Integración con plataformas de terceros para la compra de libros.
+	- Funcionalidades avanzadas de analítica de usuarios más allá de las métricas básicas de uso.
+	- Traducción a múltiples idiomas
+
+**Importancia del Proyecto:**
+Este proyecto es importante porque tiene el potencial de hacer una diferencia real en la vida de las personas al proporcionarles acceso a la lectura, la cultura y la educación. La biblioteca virtual también puede ayudar a cerrar la brecha digital y crear una comunidad más informada y comprometida.
+
+**Contexto del Proyecto:**
+Se pretende desarrollar una pagina web dedicada hacia una bibliotecas virtuale para ofrecer una solución al proporcionar acceso a recursos educativos desde cualquier lugar y en cualquier momento.
+
+**Problema que Resuelve:**
+El problema principal que resuelve este proyecto es la falta de acceso a la lectura para una gran parte de la población en general. Las bibliotecas tradicionales a menudo se encuentran en áreas urbanas, lo que puede dificultar el acceso para las personas que viven en zonas rurales o remotas. Además, los horarios de atención de las bibliotecas pueden ser limitados, lo que también puede dificultar su uso para personas con horarios ocupados. Las bibliotecas virtuales eliminan estas barreras al proporcionar acceso a los recursos de la biblioteca las 24 horas del día, los 7 días de la semana, desde cualquier lugar del mundo.
+
+**Necesidades a Cubrir:**
+	- Acceso a una amplia gama de libros electrónicos.
+	- Provisión de libros gratuitos y alquilables.
+	- Plataforma accesible y fácil de usar.
+
+### Oportunidades
+	- **Crecimiento del mercado:** Aprovechar el aumento del uso de internet para el acceso a información.
+	- **Asociaciones:** Colaborar con otras bibliotecas, instituciones educativas y organizaciones sin fines de lucro para ampliar el catálogo y recursos disponibles.
+
+### Objetivos del Proyecto
+
+**Objetivo General:**
+Desarrollar una biblioteca virtual que proporcione acceso a una amplia gama de libros electrónicos para cualquier persona con conexión a internet.
+
+**Objetivos Específicos:**
+	1. Crear una plataforma web fácil de usar y accesible.
+	2. Desarrollar un catálogo diverso de libros electrónicos.
+	3. Implementar un sistema de gestión de contenido para el personal de la biblioteca.
+	4. Implementar un sistema de alquiler de libros electrónicos.

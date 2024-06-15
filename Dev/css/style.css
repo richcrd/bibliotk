@@ -1,0 +1,59 @@
+/*  Fuentes de Google  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Satisfy&display=swap');
+
+/* Estilos generales  && Etiquetas */
+  * {
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+  }
+
+  #root {
+    --light-color: #DDE6ED;
+    --light-blue-color: #9DB2BF;
+    --medium-dark-color: #526D82;
+    --dark-color: #27374D;
+    --bg-color-alt: #EEEEEE;
+    --flat-dark-color: #352F44;
+  }
+
+  body {
+    padding-top: 60px;
+  }
+
+  /* Estilos del hero */
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  /* Estilos de libros recomendados */
+  .img-szi {
+    width: auto;
+    height: 150px;
+  }
+  .card-text {
+    font-size: 11px;
+  }
+
+  /* === Media Responsive === */
+
+  @media screen and (max-width: 766px) {
+    .card {
+      width: 150px;
+    }
+  }
+
+  @media screen and (min-width: 766px) {
+    /* .card {
+      width: 300px;
+    }
+    .img-szi {
+      width: auto;
+      height: 300px;
+    } */
+  }

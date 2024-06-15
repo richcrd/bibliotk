@@ -1,0 +1,33 @@
+:root {
+    --main: #333;
+    --light: #fff;
+    --other: #5c5597;
+}
+
+body {
+    background: var(--main);
+}
+
+* {
+    color: var(--light);
+}
+
+#Update {
+    display: none;
+}
+
+.custom-table {
+    background-color: var(--main);
+    color: var(--light);
+}
+
+.footer-content {
+    background-color: #1d1f22;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
