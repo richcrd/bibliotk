@@ -1,10 +1,9 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BiblioTK</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliotk - Nosotros</title>
 
   <!-- Link Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -13,109 +12,105 @@
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
   <!-- Link CSS -->
-  <link rel='stylesheet' href='./Dev/css/style.css' >
-  <!-- <link rel='stylesheet' href='./Dev/css/nosotros.css' > -->
+  <link rel='stylesheet' href='../css/style.css' >
+  <link rel='stylesheet' href='../css/nosotros.css' >
 
 </head>
 <body>
-  
-  <!-- Link JS -->
-  <script src="./Dev\js\incluir.js"></script>
 
-  <!-- Seccion Footer -->
-  <div data-include=".\Dev\html\navbar.html"></div>
+  <!-- Link JS -->
+  <script src="../js/incluir.js"></script>
 
   <!-- Seccion Navbar -->
-    <header>
-        <div class="container">
-            <p class="logo">BIBLIOTECA VIRTUAL</p>
-            <nav>
-                <a href="#somos-libros">Quienes Somos</a>
-                <a href="#nuestros-libros">Nuestros libros</a>
-                <a href="#caracteristicas">Características</a>
-            </nav>
-        </div>
-    </header>
-  
+  <div data-include="../componentes/navbar.html"></div>
+
   <!-- Seccion Hero -->
-  <section class="hero d-flex justify-content-center align-items-center text-center" style="background: url('Dev/assets/img/fondp.jpg') no-repeat center center; background-size: cover; height: 50vh;">
+  <section class="hero d-flex justify-content-center align-items-center text-center" style="background: url('../assets/img/fondp.jpg') no-repeat center center; background-size: cover; height: 50vh;">
     <div class="hero-overlay p-4 rounded">
-        <h1 class="display-4">Descubre <br> un mundo diferente</h1>
+        <h1 class="display-4 text-white">Descubre <br> un mundo diferente</h1>
         <a href="https://www.casadellibro.com/libros-recomendados" class="btn btn-warning btn-md">Descubrelo ahora!</a>
     </div>
   </section>
 
-  <!-- Seccion Somos -->
-  <section id="somos-libros">
-    <div class="container">
-        <div class="img-container"></div>
-        <div class="texto">
+  <!-- Seccion Navbar 2 -->
+  <ul class="nav justify-content-center mt-5 mb-5">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#nosotros">Quienes Somos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#libros">Nuestros Libros</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#caracteristicas">Caracteristicas</a>
+    </li>
+  </ul>
 
-            <h2>Somos <span class="color-acento">biblioteca virtual!</span></h2>
-            <p>“La biblioteca virtual ofrece un acceso inigualable a una amplia gama de recursos educativos y de entretenimiento desde la comodidad de tu dispositivo. Con una colección diversa que abarca desde libros clásicos hasta las últimas novedades, esta biblioteca digital se destaca por su accesibilidad y facilidad de uso. Ya sea que busques investigar, aprender o simplemente disfrutar de una buena lectura, la biblioteca virtual [nombre] tiene algo para todos los gustos. Explora, descubre y sumérgete en un mundo de conocimiento con nosotros.”</p>
+  <!-- Seccion Nosotros -->
+  <section id="nosotros">
+    <div class="container bg-light p-5 mt-5 mb-3">
+      <div class="row gy-2 gx-3 align-items-center flex-column flex-md-row">
+        <div class="col-auto">
+          <div class="img-container">
+            <img src="../assets/img/somos.jpg" width="100%" alt="img-somos">
+          </div>
+          <div class="col-auto">
+            <h2>Somos <span class="text-warning">biblioteca virtual!</span></h2>
+            <p class="fs-6">“Bibliotk ofrece acceso fácil y cómodo a una amplia variedad de recursos educativos y de entretenimiento. Es accesible y fácil de usar. Ideal para investigar, aprender o disfrutar de una buena lectura, tiene algo para todos los gustos. Explora y descubre un mundo de conocimiento con nosotros.</p>
+          </div>
         </div>
+      </div>
     </div>
   </section>
 
-  <!-- Seccion Nuestros Libros -->
-  <section id="nuestros-libros">
-    <div class="container">
-        <h2>Nuestros libros</h2>
-        <div class="libros">
-            <div class="carta">
-                <h3>genero de accion</h3>
-                <p></p>
-               
-            </div>
-            <div class="carta">
-                <h3> genero de amor</h3>
-                
-                <p></p>
-               
-            </div>
-            <div class="carta">
-                <h3>genero para niños</h3>
-                <p></p>
-               
-            </div>  
+  <!-- Contenedor de Libros -->
+   <section id="libros">
+    <div class="container bg-dark p-4 mt-4 mb-3">
+      <h2 class="mb-4 text-center text-white">Nuestros Libros</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="position-relative">
+            <img src="../assets/img/accion.jpg" class="img-fluid img-size" alt="Imagen 1">
+            <div class="overlay-text">Genero de Accion</div>
+          </div>
         </div>
+        <div class="col-md-4 mb-4">
+          <div class="position-relative">
+            <img src="../assets/img/amor.jpg" class="img-fluid img-size" alt="Imagen 2">
+            <div class="overlay-text">Genero de Amor</div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="position-relative">
+            <img src="../assets/img/niños.jpg" class="img-fluid img-size" alt="Imagen 3">
+            <div class="overlay-text">Genero de Niños</div>
+          </div>
+        </div>
+      </div>
     </div>
+   </section>
+  
+
+    <!-- Seccion Caracteristicas -->
+    <section id="caracteristicas">
+      <div class="container">
+          <ul>
+              <li>✔️ 100% online</li>
+              <li>✔️ Disponibilidad de horarios</li>
+              <li>✔️ confiabilidad en pagos</li>
+              <li>✔️ disponibilidad de libros</li>
+          </ul>
+      </div>
   </section>
-
-  <!-- Seccion Caracteristicas -->
-  <section id="caracteristicas">
-    <div class="container">
-        <ul>
-            <li>✔️ 100% online</li>
-            <li>✔️ Disponibilidad de horarios</li>
-            <li>✔️ confiabilidad en pagos</li>
-            <li>✔️ disponibilidad de libros</li>
-        </ul>
-    </div>
-</section>
-
-  <!-- Seccion Newsletter -->
-  <section id="final">
-    <h2>listo para conoser mas?</h2>
-    <a href="https://www.casadellibro.com/libros-recomendados">
-    <button> VEN YA !</button>
-</a>
-</section>
-
-<footer>
-    <div class="container">
-        <p>&copy;isidro potoy</p>
-    </div>
-</footer>
 
   <!-- Seccion Footer -->
-  <div data-include=".\Dev\html\footer.html"></div>
+   <div data-include="../componentes/footer.html"></div>
 
   <!-- Link JS Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="../js/script.js"></script>
 
 </body>
 </html>

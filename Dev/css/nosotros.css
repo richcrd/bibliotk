@@ -347,3 +347,31 @@ footer .container{
         background-position-x: calc(100vw - 800px);
     }
 }
+
+.position-relative {
+    position: relative;
+    overflow: hidden; /* Para asegurarse de que el texto no se salga del contenedor */
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    opacity: 0; /* Ocultar inicialmente el texto */
+    transition: opacity 0.3s ease;
+  }
+  
+  .position-relative:hover .overlay-text {
+    opacity: 1; /* Mostrar el texto al pasar el mouse */
+  }
+
+  img-size {
+    width: 300px;
+    height: 300px;
+  }
+  
