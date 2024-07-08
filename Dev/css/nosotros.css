@@ -1,2 +1,23 @@
+ .overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
 
-  
+.col-md-4:hover .overlay-text {
+    opacity: 1;
+}
+
+.position-relative {
+    position: relative;
+}
