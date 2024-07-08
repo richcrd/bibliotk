@@ -31,6 +31,10 @@
     background: rgba(0, 0, 0, 0.2);
   }
 
+  .navbar {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+
   /* Estilos de libros recomendados */
   .img-szi {
     width: auto;
