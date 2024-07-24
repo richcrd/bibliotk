@@ -61,3 +61,14 @@
       height: 300px;
     } */
   }
+  .card {
+    width: 150px;
+  }
+
+  .card-body {
+    height: 150px;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
