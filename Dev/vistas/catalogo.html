@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Proyecto de Desarrollo Web en entorno a clientes dedicado a una Biblioteca Virtual">
+  <meta name="keywords" content="biblio, biblioteca, library, libros">
+  <meta name="author" content="DevTeam">
+  <title>Bibliotk - Nosotros</title>
+
+  <!-- Link Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <!-- Link Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Link CSS -->
+  <link rel='stylesheet' href='../css/style.css' >
+  <link rel='stylesheet' href='../css/nosotros.css' >
+
+</head>
+<body>
+
+  <!-- Link JS -->
+  <script src="../js/incluir.js"></script>
+
+  <!-- Seccion Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    
+    <div class="container">
+        <!-- Logo -->
+        <a href="/" class="navbar-brand d-flex w-50 me-auto">BiblioTK</a>
+        <!-- Responsive Menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Menu -->
+        <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+            
+            <ul class="navbar-nav w-100 justify-content-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Catalogo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../vistas/nosotros.html">Nosotros</a>
+                </li>
+            </ul>
+
+            <!-- Carrito -->
+            <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" id="mostrarCarrito" href="#"><i class="bx bxs-cart"></i></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+  </nav>
+
+  <!-- Seccion Hero -->
+  <section class="hero d-flex justify-content-center align-items-center text-center" style="background: url('../assets/img/fondp.jpg') no-repeat center center; background-size: cover; height: 50vh;">
+    <div class="hero-overlay p-4 rounded">
+        <h1 class="display-4 text-white">Descubre <br> un mundo diferente</h1>
+        <a href="https://www.casadellibro.com/libros-recomendados" class="btn btn-warning btn-md">Descubrelo ahora!</a>
+    </div>
+  </section>
+
+  <!-- Seccion Navbar 2 -->
+  <ul class="nav bg-secondary justify-content-center mt-5 mb-5">
+    <li class="nav-item">
+      <a class="nav-link active text-white" aria-current="page" href="#nosotros">Quienes Somos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#libros">Nuestros Libros</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#caracteristicas">Caracteristicas</a>
+    </li>
+  </ul>
+
+  <!-- Seccion Nosotros -->
+  <section id="nosotros">
+    <div class="container my-4 p-2 mt-2 mb-3">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <img src="../assets/img/somos.jpg" width="100%" alt="img-somos">
+        </div>
+        <div class="col-md-8">
+          <h2>Somos <span class="text-warning">BiblioTK!</span></h2>
+          <p class="fs-6">“Bibliotk ofrece acceso fácil y cómodo a una amplia variedad de recursos educativos y de entretenimiento. Es accesible y fácil de usar. Ideal para investigar, aprender o disfrutar de una buena lectura, tiene algo para todos los gustos. Explora y descubre un mundo de conocimiento con nosotros.</p>
+        </div>
+      </div>
+    </div>
+   </section>
+
+  <!-- Contenedor de Libros -->
+   <section id="libros">
+    <div class="container my-4 bg-dark p-4 mt-2 mb-5">
+      <h2 class="mb-4 text-center text-white">Categorias de Libros</h2>
+      <div class="row">
+        <div class="col-md-4 position-relative mb-4">
+          <img src="../assets/img/amor.jpg" alt="img1" class="img-fluid w-100 h-100">
+          <div class="overlay-text">Genero de Amor</div>
+        </div>
+        <div class="col-md-4 position-relative mb-4">
+          <img src="../assets/img/accion.jpg" alt="img2" class="img-fluid w-100 h-100">
+          <div class="overlay-text">Genero de Accion</div>
+        </div>
+        <div class="col-md-4 position-relative mb-4">
+          <img src="../assets/img/niños.jpg" alt="img3" class="img-fluid w-100 h-100">
+          <div class="overlay-text">Genero de Niños</div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+  <!-- Seccion Footer -->
+     <footer class="footer bg-dark text-white p-2">
+      <!-- Navegacion -->
+      <ul
+        class="list-inline d-flex justify-content-center">
+        <li class="list-inline-item mx-2">
+          <a href="../../index.html" class="text-white text-decoration-none f-txt">Inicio</a>
+        </li>
+        <li class="list-inline-item mx-2">
+          <a href="#" class="text-white text-decoration-none f-txt">Catalogo</a>
+        </li>
+        <li class="list-inline-item mx-2">
+          <a href="../vistas/nosotros.html" class="text-white text-decoration-none f-txt">Nosotros</a>
+        </li>
+      </ul>
+
+      <!-- Copyright -->
+      <div class="container d-flex align-items-center justify-content-center">
+        <!-- <p>&copy; BiblioTK 2024</p>  -->
+      </div>
+    </footer>
+
+  <!-- Link JS Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+
+</body>
+</html>
