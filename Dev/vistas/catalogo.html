@@ -45,18 +45,28 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../vistas/nosotros.html">Nosotros</a>
                 </li>
-            </ul>
-
-            <!-- Carrito -->
-            <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link" id="mostrarCarrito" href="#"><i class="bx bxs-cart"></i></a>
+                    <a  class="nav-link" id="btnFavoritos" href="#">Guardados</a>
                 </li>
             </ul>
         </div>
 
     </div>
   </nav>
+
+  <div id="iconoFlotante" class="icono-flotante">
+    <i class="bx bxs-bookmark"></i>
+  </div>
+
+  <div id="contenedorFlotante" class="contenedor-flotante hide">
+    <div class="contenedor-flotante-header">
+        <h5>Libros Guardados</h5>
+        <button id="btnCerrar">&times;</button>
+    </div>
+    <div id="listaLibros" class="contenedor-flotante-body">
+        <!-- Lista de libros aqui... -->
+    </div>
+  </div>
 
   <!-- Seccion Navbar 2 -->
   <ul class="nav bg-secondary justify-content-center mt-5 mb-5 p-4 filtrado-botones">
@@ -85,7 +95,7 @@
                     <h5 class="card-title">Fox be Nimble</h5>
                     <p class="card-text">James Marshall</p>
                     <a href="https://openlibrary.org/books/OL2189627M/Fox_be_nimble" class="btn btn-outline-secondary btn-sm d-flex justify-content-center">Ver mas</a>
-                    <button class="btn-guardar bx bxs-bookmark-star" id="btnGuardar"></button>
+                    <button class="btn-guardar bx bxs-bookmark-star" data-id="1" onclick="guardarLibro(1)"></button>
                 </div>
             </div>
         </div>
@@ -97,7 +107,7 @@
                     <h5 class="card-title">Following GrandFather</h5>
                     <p class="card-text">Rosemary Wells</p>
                     <a href="https://openlibrary.org/books/OL25329379M/Following_Grandfather" class="btn btn-outline-secondary btn-sm d-flex justify-content-center">Ver mas</a>
-                    <button class="btn-guardar bx bxs-bookmark-star" id="btnGuardar"></button>
+                    <button class="btn-guardar bx bxs-bookmark-star" data-id="2" onclick="guardarLibro(2)"></button>
                 </div>
             </div>
         </div>
@@ -109,7 +119,7 @@
                     <h5 class="card-title">Coyote</h5>
                     <p class="card-text">Elmore Leonard</p>
                     <a href="https://openlibrary.org/books/OL27015923M/A_Coyote%27s_in_the_House" class="btn btn-outline-secondary btn-sm d-flex justify-content-center btn-ab">Ver mas</a>
-                    <button class="btn-guardar bx bxs-bookmark-star" id="btnGuardar"></button>
+                    <button class="btn-guardar bx bxs-bookmark-star" data-id="3" onclick="guardarLibro(3)"></button>
                 </div>
             </div>
         </div>
@@ -121,7 +131,7 @@
                     <h5 class="card-title">North Dakota</h5>
                     <p class="card-text">Elizabeth Goddard</p>
                     <a href="https://openlibrary.org/books/OL26463023M/North_Dakota_weddings" class="btn btn-outline-secondary btn-sm d-flex justify-content-center">Ver mas</a>
-                    <button class="btn-guardar bx bxs-bookmark-star" id="btnGuardar"></button>
+                    <button class="btn-guardar bx bxs-bookmark-star" data-id="4" onclick="guardarLibro(4)"></button>
                 </div>
             </div>
         </div>
@@ -133,7 +143,7 @@
                     <h5 class="card-title">Amor a Prueba</h5>
                     <p class="card-text">Anne McAllister</p>
                     <a href="https://openlibrary.org/books/OL10745339M/Un_Amor_A_Prueba_%28A_Love_On_Trial%29" class="btn btn-outline-secondary btn-sm d-flex justify-content-center">Ver mas</a>
-                    <button class="btn-guardar bx bxs-bookmark-star" id="btnGuardar"></button>
+                    <button class="btn-guardar bx bxs-bookmark-star" data-id="5" onclick="guardarLibro(5)"></button>
                 </div>
             </div>
         </div>
@@ -145,7 +155,7 @@
                     <h5 class="card-title">City Girl</h5>
                     <p class="card-text">Lori Wick</p>
                     <a href="https://openlibrary.org/books/OL7915843M/City_Girl" class="btn btn-outline-secondary btn-sm d-flex justify-content-center btn-ab">Ver mas</a>
-                    <button class="btn-guardar bx bxs-bookmark-star" id="btnGuardar"></button>
+                    <button class="btn-guardar bx bxs-bookmark-star" data-id="6" onclick="guardarLibro(6)"></button>
                 </div>
             </div>
         </div>
@@ -157,7 +167,7 @@
                     <h5 class="card-title">Dune</h5>
                     <p class="card-text">Frank Herbert</p>
                     <a href="https://openlibrary.org/works/OL893415W/Dune" class="btn btn-outline-secondary btn-sm d-flex justify-content-center">Ver mas</a>
-                    <button class="btn-guardar bx bxs-bookmark-star" id="btnGuardar"></button>
+                    <button class="btn-guardar bx bxs-bookmark-star" data-id="7" onclick="guardarLibro(7)"></button>
                 </div>
             </div>
         </div>
@@ -169,7 +179,7 @@
                     <h5 class="card-title">Tierra a Luna</h5>
                     <p class="card-text">Jules Verne</p>
                     <a href="https://openlibrary.org/books/OL10745339M/Un_Amor_A_Prueba_%28A_Love_On_Trial%29" class="btn btn-outline-secondary btn-sm d-flex justify-content-center">Ver mas</a>
-                    <button class="btn-guardar bx bxs-bookmark-star" id="btnGuardar"></button>
+                    <button class="btn-guardar bx bxs-bookmark-star" data-id="8" onclick="guardarLibro(8)"></button>
                 </div>
             </div>
         </div>
@@ -181,7 +191,7 @@
                     <h5 class="card-title">Cuentos del Espacio-Tiempo</h5>
                     <p class="card-text">H. G. Wells</p>
                     <a href="https://openlibrary.org/works/OL52211W/Tales_of_space_and_time" class="btn btn-outline-secondary btn-sm d-flex justify-content-center btn-ab">Ver mas</a>
-                    <button class="btn-guardar bx bxs-bookmark-star" id="btnGuardar"></button>
+                    <button class="btn-guardar bx bxs-bookmark-star" data-id="9" onclick="guardarLibro(9)"></button>
                 </div>
             </div>
         </div>
@@ -195,6 +205,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
   <script src="../js/filtrado.js"></script>
+  <script src="../js/script.js"></script>
 
 </body>
 </html>

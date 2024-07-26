@@ -89,3 +89,75 @@
     color: #fff;
     background-color: #555;
   }
+
+  .icono-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #27374D;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    border-radius: 100%;
+}
+
+.contenedor-flotante {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.contenedor-flotante-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #27374D;
+    color: white;
+}
+
+#btnCerrar {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.contenedor-flotante-body {
+    padding: 10px;
+}
+
+.libro-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.libro-titulo {
+  margin: 0;
+  flex-grow: 1;
+  font-size: 15px;
+}
+
+.btn-eliminar {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
